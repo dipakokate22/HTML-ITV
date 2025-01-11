@@ -9,10 +9,10 @@
 .thumbnail-row{
     position: relative;
     display: inline-block;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
-/* .timing{
+.timing{
     background-color: black;
     color: white;
     height: 24px;
@@ -23,7 +23,7 @@
     position: absolute;
     text-align: center;
     padding-top: 5px;
-} */
+}
 
 .video-matadata-row{
      /* display: inline-block; */
