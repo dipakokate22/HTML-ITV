@@ -1,0 +1,84 @@
+<!--  07-10-2024  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Youtube Homepage </title>
+    <style>
+        body {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+        .subscribe-button{
+            background-color: rgb(200,0,0);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            height: 36px;
+            width: 120px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-left: 10px;
+        }
+        .subscribe-button:hover {
+            
+            opacity: 0.8;
+        }
+        .subscribe-button:active {
+            opacity: 0.5;
+        }
+        .subscribe-button:focus{
+            outline: 2px solid rgba(0,0,0,0.8);
+            outline-offset: 3px;
+        }
+        .subscribe-button:disabled{
+            background-color: black;
+        }
+        .join-button{
+            background-color: white;
+            color: rgb(41, 118, 211);
+            height: 36px;
+            width: 90px;
+            border: 1px solid rgb(41, 118, 211);
+            border-radius: 2px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .join-button:hover{
+            background-color: rgb(41, 118, 211);
+            color: white;
+        }
+        .join-button:active {
+            opacity: 0.8;
+        }
+        .tweet-button{
+            background-color: rgb(2, 158, 255);
+            color: white;
+            border: none;
+            border-radius: 18px;   
+            height: 36px;
+            width: 70px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        /* border radius should be half of height to make button proper circular like tweet button */
+        .tweet-button:hover {
+            box-shadow: 10px, 10px, 15px, rgba(0, 0, 0, 0.50);
+        }
+        .search-bar::placeholder{
+
+        }
+    </style>
+</head>
+<body>
+     <button class="subscribe-button"> SUBSCRIBE </button>
+     <button class="join-button"> JOIN </button>
+     <button class="tweet-button"> Tweet </button>
+</body>
+</html>

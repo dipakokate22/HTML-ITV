@@ -1,0 +1,6 @@
+.thumbnail-image{
+    object-fit: cover;
+    /* object-position: right; */
+    border: 1px solid red;
+    
+}

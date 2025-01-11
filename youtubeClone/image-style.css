@@ -1,0 +1,70 @@
+.thumbnail-image{
+    object-fit: cover;
+    width: 100%;
+    /* margin-left: 0px; */
+    /* border-radius: 10px;     added */
+    margin-top: 60px;
+    
+}
+.thumbnail-row{
+    position: relative;
+    display: inline-block;
+    /* object-fit: cover; */
+}
+
+/* .timing{
+    background-color: black;
+    color: white;
+    height: 24px;
+    width: 45px;
+    align-items: center;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+} */
+
+.video-matadata-row{
+     /* display: inline-block; */
+    width: 350px;
+    /* margin-left: 0px; */
+    display:grid;
+    object-fit: cover;
+    grid-template-columns: 50px 1fr;
+}
+.channel-image{
+    /* display: inline-block; */
+    vertical-align: top;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 25px;
+    /* margin-left: 0px; */
+    
+}
+.channel-logo{
+    display: inline-block;
+    /* margin-left: 0px; */
+}
+
+.video-card{
+    display: inline-block;
+    /* margin: 10px; */
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /*added*/
+    /* border-radius: 10px;                         added  */
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    /* padding: 20px;       added */
+}
+
+
+
+
+
